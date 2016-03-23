@@ -43,10 +43,43 @@ html
 								input.form-control(type="text" placeholder="Search:")
 							button.btn.btn-primary(type="button")
 								span.glyphicon.glyphicon-search
-
 		
-		// jumbotron
-		section
+		section.jumbotron
+			.container
+				h1 Falcom Masters Blog
+				p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, quibusdam!
+		
+		
+		section.main.container
+			.row
+				section.posts.col-md-9
+					.migas-de-pan
+						ol.breadcrumb
+							li
+								a(href="") Inicio
+							li
+								a(href="") Categorias
+							li.active
+								| Diseno Web
+
+					article.post.clearfix
+						a.thumb.pull-left(href="#")
+							img.img-thumbnail(src="http://lorempixel.com/880/440/city/1", alt="city lorem")
+						h2.post-title
+							a(href="#")  Lorem ipsum dolor sit amet, consectetur.
+						p
+							span.post-fecha 26 de marzo de 2016 
+							| por
+							span.post-autor
+								a(href="#")  Aaron Ulate
+
+						p.post-contenido.text-justify   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam id suscipit maxime consectetur quae consequuntur unde sit, vero inventore quo, eius. Deleniti, ex eos illo libero nostrum suscipit neque unde perspiciatis veritatis consectetur dolor repellat deserunt sed maiores, error! Repudiandae, labore aperiam expedita consequuntur. Rerum assumenda qui aliquam ullam deleniti?
+
+						.contenedor-botones
+							a.btn.btn-primary(href="#") Leer Mas  
+							a.btn.btn-success Comments  
+								span.badge 25
+
 
 
 		footer
