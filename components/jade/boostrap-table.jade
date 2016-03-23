@@ -1,0 +1,104 @@
+doctype html
+html
+	head
+		title Boostrap Table
+		link(<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous")
+
+	body
+		.container
+			.row
+				.col-md-6
+					h1 This is table bootstrap
+
+					table.table.table-striped.table-hover.table-bordered
+						tr
+							th Id
+							th Nombre
+							th Apellido
+
+						tr
+							td 455
+							td Carlos
+							td Rodriguez
+
+						tr
+							td 995
+							td Robert
+							td Fadce
+
+						tr
+							td 512
+							td Maria
+							td Main st
+
+					
+			.row
+				.col-md-8
+					h1 Basic form
+
+					form
+
+						.form-group
+							label Nombre:
+							input.form-control(type="text" placeholder="Nombre:")
+
+						.form-group
+							label Apellido:
+							input.form-control(type="text" placeholder="Apellido:")
+
+						.form-group
+							label Mensaje:
+							textarea.form-control(placeholder="Mensaje!!!")
+
+						button.btn.btn-primary Continuar
+
+			.row
+				.col-md-8
+					h1 Inline Form
+
+					form.form-inline
+
+						.form-group
+							label.sr-only Nombre:
+							input.form-control(type="text" placeholder="Nombre:")
+
+						.form-group
+							.input-group
+								label.sr-only Monto:
+								.input-group-addon $
+								input.form-control(type="text" placeholder="Monto:")
+		.container
+		.row
+			.col-md-10
+				h1 Horizontal Form
+
+				form.form-horizontal
+
+					.form-group
+						label.control-label.col-md-2 Nombre:
+						.col-md-8
+							input.form-control(type="text" placeholder="Nombre:")
+
+					.form-group
+						label.control-label.col-md-2 Apellido:
+						.col-md-8
+							input.form-control(type="text" placeholder="Apellido")
+
+					.form-group
+						label.control-label.col-md-2 Mensaje:
+						.col-md-8
+							textarea.form-control(placeholder="Mensaje!!!!")
+
+					
+					.form-group
+						.col-md-2.col-md-offset-2
+							button.btn.btn-primary Continuar
+
+
+	
+
+
+
+
+
+

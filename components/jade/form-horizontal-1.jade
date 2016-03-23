@@ -1,0 +1,32 @@
+doctype html
+html
+	head
+		title Form horizontal
+		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous")
+
+	body
+		.container
+			.row
+				.col-md-10
+					h1 Form Horizontal
+
+					form.form-horizontal
+
+						.form-group
+							label.control-label.col-md-2 Nombre:
+							.col-md-8
+								input.form-control(type="text" placeholder="Nombre:")
+
+						.form-group
+							label.control-label.col-md-2 Apellido:
+							.col-md-8
+								input.form-control(type="text" placeholder="Apellido:")
+
+						.form-group
+							label.control-label.col-md-2 Mensaje:
+							.col-md-8
+								textarea.form-control( placeholder="Mensaje!!!!")
+
+						.form-group
+							.col-md-2.col-md-offset-2
+								button.btn.btn-danger.btn-lg Continuar
