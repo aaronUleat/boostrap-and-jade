@@ -39,3 +39,15 @@ POST
 .post .contenedor-botones {
 	width: 100%;
 }
+
+/*
+MEDIA QUERIE
+ */
+
+@media screen and (max-width: 768px) {
+	.post .thumb {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-top: 0;
+	}
+}
